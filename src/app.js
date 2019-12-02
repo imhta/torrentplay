@@ -1,7 +1,8 @@
 import WebTorrent from 'webtorrent/webtorrent.min';
-import './style/style.scss';
+import './style/style.css';
 
 const client = new WebTorrent();
+const rootElement = document.getElementById('root');
 const inputElement = document.getElementById('magnet-in');
 function addTorrent(torrentId) {
   client.add(torrentId, function(torrent) {
@@ -11,7 +12,7 @@ function addTorrent(torrentId) {
     });
 
     // Display the file by adding it to the DOM. Supports video, audio, image, etc. files
-    file.appendTo('body');
+    file.appendTo('#root');
   });
 }
 
