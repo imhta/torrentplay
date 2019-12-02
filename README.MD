@@ -2,7 +2,7 @@
 
 web based torrent player - copy and paste the magnet link and start play torrent.
 
-### :sparkles: [Demo](https://github.io/imhta/torrentplay)
+### :sparkles: [Demo](https://imhta.github.io/torrentplay/)
 
 
 ## Contribute
