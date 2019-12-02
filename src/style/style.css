@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 36, 131);
+}
+#magnet-in {
+  border: none;
+  padding: 20px;
+  font-size: large;
+  border-radius: 20px;
+  background-color: rgb(46, 6, 83);
+  color: white;
+}
+video {
+  width: 100%;
+}
